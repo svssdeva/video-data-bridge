@@ -14,6 +14,8 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`openVideo(...)`](#openvideo)
+* [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -33,5 +35,35 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
+
+
+### openVideo(...)
+
+```typescript
+openVideo(videoData: VideoData) => Promise<{ success: boolean; }>
+```
+
+| Param           | Type                                            |
+| --------------- | ----------------------------------------------- |
+| **`videoData`** | <code><a href="#videodata">VideoData</a></code> |
+
+**Returns:** <code>Promise&lt;{ success: boolean; }&gt;</code>
+
+--------------------
+
+
+### Interfaces
+
+
+#### VideoData
+
+| Prop             | Type                |
+| ---------------- | ------------------- |
+| **`token`**      | <code>string</code> |
+| **`userId`**     | <code>string</code> |
+| **`videoData`**  | <code>string</code> |
+| **`clientId`**   | <code>string</code> |
+| **`clientType`** | <code>string</code> |
+| **`randomId`**   | <code>string</code> |
 
 </docgen-api>

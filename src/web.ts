@@ -9,8 +9,8 @@ export class VideoDataBridgeWeb extends WebPlugin implements VideoDataBridgePlug
         return options;
     }
 
-    async openVideo(videoData: VideoData): Promise<void> {
+    async openVideo(videoData: VideoData): Promise<{ success: boolean }> {
         console.log(videoData);
-        return Promise.resolve(undefined);
+        return {success: true};
     }
 }
