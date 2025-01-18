@@ -1,5 +1,7 @@
 export interface VideoDataBridgePlugin {
     openVideo(videoData: VideoData): Promise<{ success: boolean }>;
+
+    openDownloadsPage(): Promise<{ success: boolean }>;
 }
 
 export interface VideoData {

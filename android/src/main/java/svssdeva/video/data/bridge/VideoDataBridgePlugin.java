@@ -35,4 +35,9 @@ public class VideoDataBridgePlugin extends Plugin {
 
          call.resolve(new JSObject().put("success", true));
      }
+     @PluginMethod
+     public void openDownloadsPage(PluginCall call) throws JSONException {
+         // Add custom logic for opening downloads page here
+         call.resolve(new JSObject().put("success", true));
+     }
 }

@@ -9,4 +9,9 @@ export class VideoDataBridgeWeb extends WebPlugin implements VideoDataBridgePlug
         console.log(videoData);
         return {success: true};
     }
+
+    async openDownloadsPage(): Promise<{ success: boolean }> {
+        console.log('navigating to downloads page');
+        return {success: true};
+    }
 }

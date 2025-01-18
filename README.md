@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`openVideo(...)`](#openvideo)
+* [`openDownloadsPage()`](#opendownloadspage)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -30,6 +31,17 @@ openVideo(videoData: VideoData) => Promise<{ success: boolean; }>
 | Param           | Type                                            |
 | --------------- | ----------------------------------------------- |
 | **`videoData`** | <code><a href="#videodata">VideoData</a></code> |
+
+**Returns:** <code>Promise&lt;{ success: boolean; }&gt;</code>
+
+--------------------
+
+
+### openDownloadsPage()
+
+```typescript
+openDownloadsPage() => Promise<{ success: boolean; }>
+```
 
 **Returns:** <code>Promise&lt;{ success: boolean; }&gt;</code>
 
