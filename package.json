@@ -1,6 +1,6 @@
 {
   "name": "@svssdeva/video-data-bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Capacitor plugin for passing data from web to android for native video player",
   "main": "dist/plugin.cjs.js",
