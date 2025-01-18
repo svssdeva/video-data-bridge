@@ -1,6 +1,6 @@
 {
   "name": "@svssdeva/video-data-bridge",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "private": false,
   "description": "Capacitor plugin for passing data from web to android for native video player",
   "main": "dist/plugin.cjs.js",
@@ -30,6 +30,9 @@
     "plugin",
     "native"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
     "verify:ios": "xcodebuild -scheme SvssdevaVideoDataBridge -destination generic/platform=iOS",
